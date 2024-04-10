@@ -12,7 +12,7 @@
     }, 
     "NZ_SERVER": {
       "description": "nzs",
-      "value": "x.x.x:443"
+      "value": "x.x.x"
     },    
     "NZ_KEY": {
       "description": "nzk",
