@@ -1,11 +1,13 @@
 FROM node:alpine
 
-EXPOSE 3000
 WORKDIR /app
 
-COPY index.js package.json /app
-RUN apk update &&\
-    apk add --no-cache curl &&\
-    npm install 
+COPY . .
 
-ENTRYPOINT ["npm", "start"]
+EXPOSE 3000
+
+RUN apk update && apk add --no-cache openssl curl &&\
+    chmod +x index.js &&\
+    npm install
+
+CMD ["node", "index.js"]
