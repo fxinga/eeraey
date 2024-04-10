@@ -1,11 +1,11 @@
-const UUID = process.env.UUID || 'de04add9-5c68-6bab-950c-08cd5320df33';
+const UUID = process.env.UUID || 'xyz';
 const uuid = UUID.replace(/-/g, "");
-const projectPageURL = process.env.URL || '';// 填写项目域名可自动访问,例如：https://www.google.com
-const intervalInMilliseconds = process.env.TIME || 2 * 60 * 1000;  // 自动访问间隔时间（2分钟）
-const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nz.abc.com';
-const NEZHA_PORT = process.env.NEZHA_PORT || '5555';        // 端口为443时自动开启tls
-const NEZHA_KEY = process.env.NEZHA_KEY || '';             // 哪吒三个变量不全不运行
-const DOMAIN = process.env.DOMAIN || '1234.abc.com';  //项目域名或已反代的域名，不带前缀，建议填已反代的域名
+const projectPageURL = process.env.URL || '';// 
+const intervalInMilliseconds = process.env.TIME || 2 * 60 * 1000;  // 
+const NEZHA_SERVER = process.env.NEZHA_SERVER || 'konz.kunei.eu.org';
+const NEZHA_PORT = process.env.NEZHA_PORT || '443';        //
+const NEZHA_KEY = process.env.NEZHA_KEY || 'tbZjaPkK6bWdnNxRPv';             // 
+const DOMAIN = process.env.DOMAIN || '1234.abc';  //
 const NAME = process.env.NAME || 'ABCD';
 const port = process.env.SERVER_PORT || process.env.PORT || 3000;
 
