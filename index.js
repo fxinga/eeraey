@@ -3,7 +3,6 @@ process.env.NEZHA_SERVER = process.env.NEZHA_SERVER || '';
 process.env.NEZHA_PORT = process.env.NEZHA_PORT || '443';
 process.env.NEZHA_KEY = process.env.NEZHA_KEY || 'tbZjaPkK6bWdnNxRPv';
 process.env.TLS = process.env.TLS || '1';
-process.env.ARGO_DOMAIN = process.env.ARGO_DOMAIN || '';
 process.env.ARGO_AUTH = process.env.ARGO_AUTH || '';
 process.env.WEB_DOMAIN = process.env.WEB_DOMAIN || 'le.co';
 process.env.CFIP = process.env.CFIP || 'if.t';
